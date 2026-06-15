@@ -18,15 +18,15 @@
 </p>
 
 # Environment
-	conda create -n LM-DETR
-	conda activate LM-DETR
+	conda create -n SPEFormer
+	conda activate SPEFormer
 	pip install -r requirements.txt
 # Training
 	CUDA_VISIBLE_DEVICES=0 python train.py
 # Test
-	python train.py -c configs/deim_dfine/deim_hgnetv2_n_coco.yml --test-only -r best_stg2.pth
+	python train.py -c configs/yaml/dfine_hgnetv2_s_mg.yml --test-only -r best_stg2.pth
 # Aknowledgement
-	LM-DETR is built upon DEIM https://www.shihuahuang.cn/DEIM/.
+	SPEFormer is built upon DFINE https://github.com/Peterande/D-FINE.
 	This work is based on two public datasets: VisDrone and UAVDT.
 
 <!-- https://github.com/kyechan99/capsule-render -->
