@@ -27,7 +27,7 @@
 	python train.py -c configs/yaml/dfine_hgnetv2_s_mg.yml --test-only -r best_stg2.pth
 # Aknowledgement
 	SPEFormer is built upon DFINE https://github.com/Peterande/D-FINE.
-	This work is based on two public datasets: VisDrone DOTA and DIOR.
+	This work is based on three public datasets: VisDrone DOTA and DIOR.
 
 <!-- https://github.com/kyechan99/capsule-render -->
 <p align="center">
